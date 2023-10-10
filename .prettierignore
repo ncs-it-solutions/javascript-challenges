@@ -1,0 +1,6 @@
+# Ignore artifacts:
+coverage
+
+# Ignore Markdown files:
+*.md
+*.mdx

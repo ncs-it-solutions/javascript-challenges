@@ -1,0 +1,32 @@
+# Packages
+node_modules
+
+# Build
+dist
+out
+
+# Compiled JavaScript files
+lib/**/*.js
+lib/**/*.js.map
+dist/**/*.js
+dist/**/*.js.map
+
+# Tests
+/coverage
+coverage
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# System Files
+.DS_Store
+
+# Other files
+**/*.trace
+**/*.zip
+**/*.tar.gz
+**/*.tgz
+**/*.log
+**/*.bun

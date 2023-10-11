@@ -1,3 +1,5 @@
-export function factorialize(n) {
+function factorialize(n) {
   return n;
 }
+
+module.exports = factorialize;

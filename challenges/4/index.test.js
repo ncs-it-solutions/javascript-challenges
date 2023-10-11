@@ -1,3 +1,5 @@
+const factorialize = require('./index');
+
 describe('factorialize', () => {
   const cases = [
     [
@@ -31,7 +33,7 @@ describe('factorialize', () => {
     const result = factorialize(input);
 
     // Assert
-    expected(result).toEqual(expected);
+    expect(result).toEqual(expected);
   });
 
   it('should handle negative numbers', () => {
@@ -43,6 +45,6 @@ describe('factorialize', () => {
     const result = factorialize(input);
 
     // Assert
-    expected(result).toEqual(expected);
+    expect(result).toEqual(expected);
   });
 });

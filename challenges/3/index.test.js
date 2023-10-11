@@ -1,3 +1,5 @@
+const isPalindrome = require('./index');
+
 describe('isPalindrome', () => {
   const trueCases = [
     'madam',
@@ -19,7 +21,7 @@ describe('isPalindrome', () => {
     const result = isPalindrome(input);
 
     // Assert
-    expected(result).toEqual(expected);
+    expect(result).toEqual(expected);
   });
 
   const falseCases = ['car', 'desserts', 'stressed', 'word'];
@@ -34,7 +36,7 @@ describe('isPalindrome', () => {
       const result = isPalindrome(input);
 
       // Assert
-      expected(result).toEqual(expected);
+      expect(result).toEqual(expected);
     }
   );
 
@@ -47,7 +49,7 @@ describe('isPalindrome', () => {
     const result = isPalindrome(input);
 
     // Assert
-    expected(result).toEqual(expected);
+    expect(result).toEqual(expected);
   });
 
   it('should handle whitespace string', () => {
@@ -59,7 +61,7 @@ describe('isPalindrome', () => {
     const result = isPalindrome(input);
 
     // Assert
-    expected(result).toEqual(expected);
+    expect(result).toEqual(expected);
   });
 
   it('should handle a string with punctuation', () => {
@@ -71,6 +73,6 @@ describe('isPalindrome', () => {
     const result = isPalindrome(input);
 
     // Assert
-    expected(result).toEqual(expected);
+    expect(result).toEqual(expected);
   });
 });

@@ -1,3 +1,5 @@
+const removeDuplicates = require('./index');
+
 describe('removeDuplicates', () => {
   const cases = [
     [
@@ -25,7 +27,7 @@ describe('removeDuplicates', () => {
       const result = removeDuplicates(input);
 
       // Assert
-      expected(result).toEqual(expected);
+      expect(result).toEqual(expected);
     }
   );
 
@@ -38,7 +40,7 @@ describe('removeDuplicates', () => {
     const result = removeDuplicates(input);
 
     // Assert
-    expected(result).toEqual(expected);
+    expect(result).toEqual(expected);
   });
 
   it('should handle an array with only one item', () => {
@@ -50,7 +52,7 @@ describe('removeDuplicates', () => {
     const result = removeDuplicates(input);
 
     // Assert
-    expected(result).toEqual(expected);
+    expect(result).toEqual(expected);
   });
 
   it('should handle an array without duplicates', () => {
@@ -62,6 +64,6 @@ describe('removeDuplicates', () => {
     const result = removeDuplicates(input);
 
     // Assert
-    expected(result).toEqual(expected);
+    expect(result).toEqual(expected);
   });
 });

@@ -16,6 +16,10 @@ A series of challenges.
 - Feel free to jump between challenges if you start to feel stuck.
 - Try to share your thoughts and imagine this challenges like a pair programming session.
 
+## Hints
+
+- Take a look at the unit tests to understand what are the expected behaviors.
+
 ## Challenges
 
 | # | Documentation |

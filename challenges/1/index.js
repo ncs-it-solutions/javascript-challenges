@@ -1,22 +1,5 @@
-function add(a, b) {
-  return a + b;
-}
-
-function subtract(a, b) {
-  return a - b;
-}
-
-function multiply(a, b) {
-  return a * b;
-}
-
-function divide(a, b) {
-  return a / b;
-}
-
-module.exports = {
-  add,
-  subtract,
-  multiply,
-  divide
+for (var i = 1; i <= 5; i++) {
+  setTimeout(() => {
+    console.log(i);
+  });
 }

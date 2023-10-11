@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test:challenge:1": "jest -- challenges/1/index.test.js",
+    "challenge:1": "node challenges/1/index.js",
     "test:challenge:2": "jest -- challenges/2/index.test.js",
     "test:challenge:3": "jest -- challenges/3/index.test.js",
     "test:challenge:4": "jest -- challenges/4/index.test.js",
-    "challenge:5": "node challenges/5/index.js",
+    "test:challenge:5": "jest -- challenges/5/index.test.js",
     "format": "npx prettier --write ."
   },
   "devDependencies": {

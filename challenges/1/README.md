@@ -1,18 +1,33 @@
-# Challenge #1
+# Challenge #5
 
-Create unit tests for the existing functions.
+Fix the loop bug.
 
-> Feel free to change the existing functions in order to fix bugs or prevent calculation errors.
+The aim of the loop is to print the number from 1 to 5 on the console, as follows:
 
-## Notes
+```bash
+1
+2
+3
+4
+5
+```
 
-- There is already a package named [Jest](https://jestjs.io) installed, you can use it or install another one that you like.
-- You must create, at least, one unit test for each function.
+But the loop is printing the following:
 
-## Test
+```bash
+6
+6
+6
+6
+6
+```
+
+Start by analyzing the algorithm, fix it and explain what was happening.
+
+## Execute the code
 
 Open terminal and execute the following command:
 
 ```bash
-npm run test:challenge:1
+npm run challenge:1
 ```

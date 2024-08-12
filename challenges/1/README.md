@@ -1,4 +1,4 @@
-# Challenge #5
+# Challenge #1
 
 Fix the loop bug.
 
